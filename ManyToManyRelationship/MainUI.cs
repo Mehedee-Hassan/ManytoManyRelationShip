@@ -48,13 +48,16 @@ namespace ManyToManyRelationship
         {
             
             {
-                
+                enrollmentDataGridView.Rows.Clear();
                 foreach (Enrollment aEnrollment in list)
                 {
                     
 
                    // MessageBox.Show(list[0].CourseTaken.Title);
                     //enrollmentDataGridView.DataSource = aList;
+
+                    
+                    
                     enrollmentDataGridView.Rows.Add(aEnrollment.AStudent.RegNo,
                         aEnrollment.CourseTaken.Title,
                         aEnrollment.EnrolledDate.ToString());
