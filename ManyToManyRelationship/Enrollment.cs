@@ -13,6 +13,11 @@ namespace ManyToManyRelationship
 
         public DateTime EnrolledDate { set; get; }
 
+        public override string ToString()
+        {
+            return EnrolledDate.ToString();
+        }
+
 
     }
 }

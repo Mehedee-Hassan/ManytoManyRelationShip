@@ -21,7 +21,7 @@ namespace ManyToManyRelationship
         
         public override string ToString()
         {
-            return Code;
+            return Title;
         }
     }
 }

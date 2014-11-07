@@ -33,9 +33,6 @@
             this.enrollmentButton = new System.Windows.Forms.Button();
             this.enrollmentDataGridView = new System.Windows.Forms.DataGridView();
             this.showButton = new System.Windows.Forms.Button();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.enrollmentDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -72,10 +69,6 @@
             // enrollmentDataGridView
             // 
             this.enrollmentDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.enrollmentDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3});
             this.enrollmentDataGridView.Location = new System.Drawing.Point(12, 178);
             this.enrollmentDataGridView.Name = "enrollmentDataGridView";
             this.enrollmentDataGridView.Size = new System.Drawing.Size(438, 236);
@@ -90,22 +83,6 @@
             this.showButton.Text = "Show";
             this.showButton.UseVisualStyleBackColor = true;
             this.showButton.Click += new System.EventHandler(this.showButton_Click);
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "RegNo";
-            this.Column1.Name = "Column1";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Course";
-            this.Column2.Name = "Column2";
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Date";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 180;
             // 
             // MainUI
             // 
@@ -131,8 +108,5 @@
         private System.Windows.Forms.Button enrollmentButton;
         private System.Windows.Forms.DataGridView enrollmentDataGridView;
         private System.Windows.Forms.Button showButton;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }

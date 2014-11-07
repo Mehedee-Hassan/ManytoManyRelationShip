@@ -47,26 +47,28 @@ namespace ManyToManyRelationship
         private void SowGrid(List<Enrollment> list)
         {
             
-            {
-                enrollmentDataGridView.Rows.Clear();
-                foreach (Enrollment aEnrollment in list)
-                {
+            //{
+            //    enrollmentDataGridView.Rows.Clear();
+            //    foreach (Enrollment aEnrollment in list)
+            //    {
                     
 
-                   // MessageBox.Show(list[0].CourseTaken.Title);
-                    //enrollmentDataGridView.DataSource = aList;
+            //       // MessageBox.Show(list[0].CourseTaken.Title);
+            //        //enrollmentDataGridView.DataSource = aList;
 
                     
                     
-                    enrollmentDataGridView.Rows.Add(aEnrollment.AStudent.RegNo,
-                        aEnrollment.CourseTaken.Title,
-                        aEnrollment.EnrolledDate.ToString());
+            //        enrollmentDataGridView.Rows.Add(aEnrollment.AStudent.RegNo,
+            //            aEnrollment.CourseTaken.Title,
+            //            aEnrollment.EnrolledDate.ToString());
 
-                }
+            //    }
                 
+           
+            enrollmentDataGridView.DataSource = list;
+
                 
-                
-            }
+        //    }
 
         }
 
