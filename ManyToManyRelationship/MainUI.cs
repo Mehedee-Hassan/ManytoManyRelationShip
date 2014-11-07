@@ -53,7 +53,7 @@ namespace ManyToManyRelationship
                 {
                     
 
-                    MessageBox.Show(list[0].CourseTaken.Title);
+                   // MessageBox.Show(list[0].CourseTaken.Title);
                     //enrollmentDataGridView.DataSource = aList;
                     enrollmentDataGridView.Rows.Add(aEnrollment.AStudent.RegNo,
                         aEnrollment.CourseTaken.Title,
