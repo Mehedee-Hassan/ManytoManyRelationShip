@@ -105,6 +105,7 @@
             // 
             this.Column3.HeaderText = "Date";
             this.Column3.Name = "Column3";
+            this.Column3.Width = 180;
             // 
             // MainUI
             // 

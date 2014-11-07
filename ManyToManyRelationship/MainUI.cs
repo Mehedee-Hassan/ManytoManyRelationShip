@@ -48,17 +48,21 @@ namespace ManyToManyRelationship
         {
             
             {
-                List<string> aList = new List<string>();
+                
+                foreach (Enrollment aEnrollment in list)
+                {
+                    
 
-                aList.Add(list[0].AStudent.RegNo);
-                aList.Add(list[0].CourseTaken.Title);
-                aList.Add(list[0].EnrolledDate.ToString());
+                    MessageBox.Show(list[0].CourseTaken.Title);
+                    //enrollmentDataGridView.DataSource = aList;
+                    enrollmentDataGridView.Rows.Add(aEnrollment.AStudent.RegNo,
+                        aEnrollment.CourseTaken.Title,
+                        aEnrollment.EnrolledDate.ToString());
 
-
-                MessageBox.Show(list[0].CourseTaken.Title);
-                //enrollmentDataGridView.DataSource = aList;
-                enrollmentDataGridView.Rows.Add(aList[0],aList[1],aList[2]);
-
+                }
+                
+                
+                
             }
 
         }

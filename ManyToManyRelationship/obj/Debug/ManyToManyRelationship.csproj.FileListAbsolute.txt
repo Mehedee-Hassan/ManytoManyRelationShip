@@ -25,3 +25,12 @@ C:\Users\PC21\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyT
 C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\bin\Debug\ManyToManyRelationship.exe.config
 C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.exe
 C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.pdb
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\bin\Debug\ManyToManyRelationship.exe
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\bin\Debug\ManyToManyRelationship.pdb
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.csprojResolveAssemblyReference.cache
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.CourseEntryUI.resources
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.EnrollmentUI.resources
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.MainUI.resources
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.Properties.Resources.resources
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.StudentEntryUI.resources
+C:\Users\MHR\Documents\Visual Studio 2013\Projects\ManyToManyRelationship\ManyToManyRelationship\obj\Debug\ManyToManyRelationship.csproj.GenerateResource.Cache
